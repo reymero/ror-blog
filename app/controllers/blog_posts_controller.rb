@@ -41,5 +41,4 @@ class BlogPostsController < ApplicationController
   rescue ActiveRecord::RecordNotFound
     redirect_to root_path
   end
-  end
 end
